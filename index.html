@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="survey form for college">
+    <meta name="keywords" content="HTML, CSS,survey form,personal detail,college detail">
+    <meta name="author" content="sabyasachi">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>survey form</title>
+    <link href="/style/style.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="bk-img"></div>
+    <main>
+        <header>
+            <h1 id="title" class="heading">college survey</h1>
+            <p id="description" class="heading_2">Taking some information about your college</p>
+        </header>
+        <section>
+            <div class="container_1">
+                <div id="box" class="container">
+                    <div class="img1">
+                        <img src="/image/personal detail4.png">
+
+                    </div>
+
+                    <h2 id="pd">Personal detail</h2>
+                    <form action="#" method="POST" autocomplete="on" id="survey-form">
+                        <div class="name">
+                            <label for="name">Name:</label><br>
+                            <input type="text" id="name" name="name" required placeholder="ex:-sabyasachi" min="3"
+                                max="20">
+                        </div>
+                        <br><br>
+                        <div class="name">
+                            <label for="email">Email:</label><br>
+                            <input type="email" id="email" name="email" required placeholder="ex:-sabya41999@gmail.com"
+                                min="3" max="20">
+                        </div>
+
+                        <br><br>
+                        <div class="name">
+                            <label for="Phone">Phone:</label><br>
+                            <input type="tel" id="phone" name="phone" placeholder="123-45-678"
+                                pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required><br><br>
+                        </div>
+
+                        <div class="name">
+                            <label for="dob">Date of Birth:</label><br>
+                            <input type="date" id="dob" name="dob"><br><br>
+                            <label>Gender:</label><br>
+                            <input type="radio" id="male" name="gender" value="male">
+                            <label for="male" class="male">Male</label>
+                            <input type="radio" id="female" name="gender" value="female">
+                            <label for="female" class="female">Female</label>
+                            <input type="radio" id="other" name="gender" value="other">
+                            <label for="other" class="radio">Other</label><br><br>
+                            <label for="address">Address:</label><br>
+                            <textarea id="address" name="address" placeholder="mahavir colony etc:-" rows="9"
+                                cols="50"> </textarea>
+                        </div><br><br><br>
+                        <div class="submit">
+                            <a href="/static/goahead.html"><input type="button" name="button" value="Go ahead"></a>
+                        </div>
+
+                    </form>
+
+                </div>
+            </div>
+
+
+        </section>
+
+    </main>
+
+    <footer id="footer">
+        <h1 id="footer-h1">Contact Us :</h1>
+        <div class="social_media">
+            <a href="https://www.facebook.com/profile.php?id=100008392393658" target="_blank" class="fu facebook">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.instagram.com/sbyasachi471999/" target="_blank" class="fu instagram">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/sabya-sachi-971972182" target="_blank" class="fu linkdin">
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </a>
+        </div>
+    </footer>
+</body>
+
+</html>
