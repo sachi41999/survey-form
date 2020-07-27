@@ -30,7 +30,7 @@
                             <label for="clgname">College/University:</label><br>
                             <input type="text" id="clgname" name="clgname" required
                                 placeholder="ex:-ABC college"><br><br>
-                            <label for="course">course:</label>
+                            <label id="dropdown" for="course">course:</label>
                             <select name="course" id="course" required>
                                 <option value="Bs.c">Bs.c</option>
                                 <option value="B.tech">B.tech</option>
@@ -43,10 +43,12 @@
                             <label for="stream">Stream:</label><br>
                             <input type="text" placeholder="ex:-electrical enginnering" id="stream"
                                 name="stream"><br><br>
-                            <label for="dep">How many department in your college:</label>
-                            <input type="number" id="dep" name="dep"><br><br>
-                            <label for="student">How many approximate students are in your college:</label><br>
-                            <input type="number" id="student" name="student"><br><br><br>
+                            <label id="number" for="number-label">How many department in your college:</label>
+                            <input type="number" id="number-label" name="number-label"
+                                placeholder="ex:-1,2,3.."><br><br>
+                            <label for="number-label">How many approximate students are in your college:</label><br>
+                            <input type="number" id="number-label" name="number-label"
+                                placeholder="ex:-1,2,3.."><br><br><br>
                             <label for="hostel">In your college campus hostels are available:</label><br>
                             <input type="checkbox" id="yes" name="yes" value="yes">
                             <label for="yes">yes</label>
@@ -63,7 +65,7 @@
                                 cols="60"> </textarea><br><br>
                             <div class="submit">
                                 <a href="../index.html"><input type="button" name="button" value="Go back"></a>
-                                <a href="#"><input type="button" name="button" value="submit"></a>
+                                <a href="#"><input id="submit" type="button" name="button" value="submit"></a>
                             </div>
 
 
