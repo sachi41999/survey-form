@@ -1,5 +1,4 @@
-@import "./comman.css";
-
+@import url(./common.css);
 #pd {
   text-align: center;
   font-style: italic;
